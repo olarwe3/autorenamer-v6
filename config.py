@@ -3,20 +3,20 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "Your_api_id")
-    API_HASH  = os.environ.get("API_HASH", "your_api_hash")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "your_bot_token") 
+    API_ID    = os.environ.get("API_ID", "21253111")
+    API_HASH  = os.environ.get("API_HASH", "22eb704c1ec78c8652ce2e214d380026")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6958170968:AAG6cA8G2DeU2Y09R7xPfBLSvHai5jjEcfg") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Howtogoogle")     
-    DB_URL  = os.environ.get("DB_URL","your_mongo_url")
+    DB_NAME = os.environ.get("DB_NAME","Cluster0")     
+    DB_URL  = os.environ.get("DB_URL","+srv://shakirullahzoology:MKRve1K2323o23imd3ikl231l@cluster0.ptpud.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1002204833964") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002155664087"))
+    START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/6f1cd0876262a073dfa76.jpg")
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7161936228').split()]
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1002181831601") 
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002185443694"))
     PORT = int(os.environ.get("PORT", "8080"))
     
     # wes response configuration     
@@ -36,7 +36,7 @@ class Txt(object):
     
 ➻ Use /tutorial Command To Know How To Use Me.
 
-<b>Bot Is Made By @how_to_google</b>
+<b>Bot Is Made By @fallen7x</b>
 
 <b><a href='https://github.com/</a></b>
 """
@@ -56,7 +56,7 @@ Use These Keywords To Setup Custom File Name
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>📢 Channel :</b> <a href='https://t.me/how_to_google'>HowToGoogle</a>
+<b>📢 Channel :</b> <a href='https://t.me/free_3d_assets'>Free 3D Assets</a>
 <b>🧑‍💻 Developer :</b> <a href='https://t.me/lkd_ak'>lkd_ak</a>
     
 <b>♻️ Bot Made By :</b> @how_to_google"""
@@ -81,7 +81,7 @@ Use These Keywords To Setup Custom File Name
 ┣⪼ ⏳️ Dᴏɴᴇ : {0}%
 ┣⪼ 🚀 Sᴩᴇᴇᴅ: {3}/s
 ┣⪼ ⏰️ Eᴛᴀ: {4}
-┣⪼ 🥺 joine Plz: @how_to_google
+┣⪼ 🥺 joine Plz: @free_3d_assets
 ╰━━━━━━━━━━━━━━━➣ </b>"""
     
     
@@ -89,11 +89,11 @@ Use These Keywords To Setup Custom File Name
     
 If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
     
-<b>My UPI - aashishpatidar </b> """
+<b>THANK YOU WILL BE ENGOUH </b> """
     
     HELP_TXT = """<b>Hey</b> {}
     
-Joine @how_to_google To Help """
+Join @free_3d_assets To Help """
 
 
 
