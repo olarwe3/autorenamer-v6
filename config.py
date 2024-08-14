@@ -3,20 +3,20 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "21253111")
-    API_HASH  = os.environ.get("API_HASH", "22eb704c1ec78c8652ce2e214d380026")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6958170968:AAG6cA8G2DeU2Y09R7xPfBLSvHai5jjEcfg") 
+    API_ID    = os.environ.get("API_ID", "")
+    API_HASH  = os.environ.get("API_HASH", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Cluster0")     
-    DB_URL  = os.environ.get("DB_URL","+srv://shakirullahzoology:MKRve1K2323o23imd3ikl231l@cluster0.ptpud.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DB_NAME = os.environ.get("DB_NAME","")     
+    DB_URL  = os.environ.get("DB_URL","")
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/6f1cd0876262a073dfa76.jpg")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7161936228').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1002181831601") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002185443694"))
+    START_PIC   = os.environ.get("")
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
     PORT = int(os.environ.get("PORT", "8080"))
     
     # wes response configuration     
